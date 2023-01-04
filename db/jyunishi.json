@@ -1,0 +1,134 @@
+[
+  {
+    "number": 1,
+    "emoji": "🐭",
+    "character": "子",
+    "character_hiragana": "ね",
+    "animal_name": {
+      "ja": "鼠",
+      "ja_hiragana": "ねずみ",
+      "en": "mouse"
+    }
+  },
+  {
+    "number": 2,
+    "emoji": "🐮",
+    "character": "丑",
+    "character_hiragana": "うし",
+    "animal_name": {
+      "ja": "牛",
+      "ja_hiragana": "うし",
+      "en": "cow"
+    }
+  },
+  {
+    "number": 3,
+    "emoji": "🐯",
+    "character": "寅",
+    "character_hiragana": "とら",
+    "animal_name": {
+      "ja": "虎",
+      "ja_hiragana": "とら",
+      "en": "tiger"
+    }
+  },
+  {
+    "number": 4,
+    "emoji": "🐰",
+    "character": "卯",
+    "character_hiragana": "う",
+    "animal_name": {
+      "ja": "兎",
+      "ja_hiragana": "うさぎ",
+      "en": "rabbit"
+    }
+  },
+  {
+    "number": 5,
+    "emoji": "🐲",
+    "character": "辰",
+    "character_hiragana": "たつ",
+    "animal_name": {
+      "ja": "龍",
+      "ja_hiragana": "りゅう",
+      "en": "dragon"
+    }
+  },
+  {
+    "number": 6,
+    "emoji": "🐍",
+    "character": "巳",
+    "character_hiragana": "たつ",
+    "animal_name": {
+      "ja": "蛇",
+      "ja_hiragana": "へび",
+      "en": "snake"
+    }
+  },
+  {
+    "number": 7,
+    "emoji": "🐴",
+    "character": "午",
+    "character_hiragana": "うま",
+    "animal_name": {
+      "ja": "馬",
+      "ja_hiragana": "うま",
+      "en": "horse"
+    }
+  },
+  {
+    "number": 8,
+    "emoji": "🐏",
+    "character": "未",
+    "character_hiragana": "ひつじ",
+    "animal_name": {
+      "ja": "羊",
+      "ja_hiragana": "ひつじ",
+      "en": "sheep"
+    }
+  },
+  {
+    "number": 9,
+    "emoji": "🐵",
+    "character": "申",
+    "character_hiragana": "さる",
+    "animal_name": {
+      "ja": "猿",
+      "ja_hiragana": "さる",
+      "en": "monkey"
+    }
+  },
+  {
+    "number": 10,
+    "emoji": "🐔",
+    "character": "酉",
+    "character_hiragana": "とり",
+    "animal_name": {
+      "ja": "鶏",
+      "ja_hiragana": "にわとり",
+      "en": "rooster"
+    }
+  },
+  {
+    "number": 11,
+    "emoji": "🐶",
+    "character": "戌",
+    "character_hiragana": "いぬ",
+    "animal_name": {
+      "ja": "犬",
+      "ja_hiragana": "いぬ",
+      "en": "dog"
+    }
+  },
+  {
+    "number": 12,
+    "emoji": "🐗",
+    "character": "亥",
+    "character_hiragana": "い",
+    "animal_name": {
+      "ja": "猪",
+      "ja_hiragana": "いのしし",
+      "en": "boar"
+    }
+  }
+]
