@@ -3,6 +3,8 @@ require 'json'
 
 module Etoji
   module Jyunishi
+    class NotFound < StandardError; end
+
     SOURCE_FILE_PATH = File.expand_path('../../../db/jyunishi.json', __FILE__)
     Animal = ::Data.define(:number, :emoji, :character, :character_hiragana, :animal_name_ja, :animal_name_ja_hiragana, :animal_name_en)
     MEMBERS = JSON.parse(File.read(SOURCE_FILE_PATH), symbolize_names: true).map { |attributes|
@@ -23,7 +25,7 @@ module Etoji
 
     def self.find_by_number(number)
       @animals_by_number ||= MEMBERS.each_with_object({}) { |animal, result| result[animal.number] = animal }
-      @animals_by_number[number]
+      @animals_by_number[number] or raise NotFound.new("Number: #{number} is not found")
     end
   end
 end
