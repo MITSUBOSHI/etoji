@@ -1,5 +1,8 @@
 # Etoji
 
+[![test](https://github.com/MITSUBOSHI/etoji/actions/workflows/test.yml/badge.svg)](https://github.com/MITSUBOSHI/etoji/actions/workflows/test.yml)
+
+
 Simple 干支(eto) library
 
 ## Usage
