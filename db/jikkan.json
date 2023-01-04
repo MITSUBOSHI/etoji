@@ -1,0 +1,62 @@
+[
+  {
+    "number": 1,
+    "character": "甲",
+    "character_hiragana_on": "こう",
+    "character_hiragana_kun": "きのえ"
+  },
+  {
+    "number": 2,
+    "character": "乙",
+    "character_hiragana_on": "おつ",
+    "character_hiragana_kun": "きのと"
+  },
+  {
+    "number": 3,
+    "character": "丙",
+    "character_hiragana_on": "へい",
+    "character_hiragana_kun": "ひのえ"
+  },
+  {
+    "number": 4,
+    "character": "丁",
+    "character_hiragana_on": "てい",
+    "character_hiragana_kun": "ひのと"
+  },
+  {
+    "number": 5,
+    "character": "戊",
+    "character_hiragana_on": "ぼ",
+    "character_hiragana_kun": "つちのえ"
+  },
+  {
+    "number": 6,
+    "character": "己",
+    "character_hiragana_on": "き",
+    "character_hiragana_kun": "つちのと"
+  },
+  {
+    "number": 7,
+    "character": "庚",
+    "character_hiragana_on": "こう",
+    "character_hiragana_kun": "かのえ"
+  },
+  {
+    "number": 8,
+    "character": "辛",
+    "character_hiragana_on": "しん",
+    "character_hiragana_kun": "かのと"
+  },
+  {
+    "number": 9,
+    "character": "壬",
+    "character_hiragana_on": "じん",
+    "character_hiragana_kun": "みずのえ"
+  },
+  {
+    "number": 10,
+    "character": "癸",
+    "character_hiragana_on": "き",
+    "character_hiragana_kun": "みずのと"
+  }
+]
