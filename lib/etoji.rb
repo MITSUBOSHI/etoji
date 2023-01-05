@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-require "etoji/version"
-require "etoji/jikkan"
-require "etoji/jyunishi"
+require_relative "etoji/version"
+require_relative "etoji/jikkan"
+require_relative "etoji/jyunishi"
 
 module Etoji
   class Error < StandardError; end
