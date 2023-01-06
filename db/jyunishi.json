@@ -3,7 +3,8 @@
     "number": 1,
     "emoji": "🐭",
     "character": "子",
-    "character_hiragana": "ね",
+    "character_hiragana_kun": "ね",
+    "character_hiragana_on": "し",
     "animal_name": {
       "ja": "鼠",
       "ja_hiragana": "ねずみ",
@@ -14,7 +15,8 @@
     "number": 2,
     "emoji": "🐮",
     "character": "丑",
-    "character_hiragana": "うし",
+    "character_hiragana_kun": "うし",
+    "character_hiragana_on": "ちゅう",
     "animal_name": {
       "ja": "牛",
       "ja_hiragana": "うし",
@@ -25,7 +27,8 @@
     "number": 3,
     "emoji": "🐯",
     "character": "寅",
-    "character_hiragana": "とら",
+    "character_hiragana_kun": "とら",
+    "character_hiragana_on": "いん",
     "animal_name": {
       "ja": "虎",
       "ja_hiragana": "とら",
@@ -36,7 +39,8 @@
     "number": 4,
     "emoji": "🐰",
     "character": "卯",
-    "character_hiragana": "う",
+    "character_hiragana_kun": "う",
+    "character_hiragana_on": "ぼう",
     "animal_name": {
       "ja": "兎",
       "ja_hiragana": "うさぎ",
@@ -47,7 +51,8 @@
     "number": 5,
     "emoji": "🐲",
     "character": "辰",
-    "character_hiragana": "たつ",
+    "character_hiragana_kun": "たつ",
+    "character_hiragana_on": "しん",
     "animal_name": {
       "ja": "龍",
       "ja_hiragana": "りゅう",
@@ -58,7 +63,8 @@
     "number": 6,
     "emoji": "🐍",
     "character": "巳",
-    "character_hiragana": "たつ",
+    "character_hiragana_kun": "み",
+    "character_hiragana_on": "し",
     "animal_name": {
       "ja": "蛇",
       "ja_hiragana": "へび",
@@ -69,7 +75,8 @@
     "number": 7,
     "emoji": "🐴",
     "character": "午",
-    "character_hiragana": "うま",
+    "character_hiragana_kun": "うま",
+    "character_hiragana_on": "ご",
     "animal_name": {
       "ja": "馬",
       "ja_hiragana": "うま",
@@ -80,7 +87,8 @@
     "number": 8,
     "emoji": "🐏",
     "character": "未",
-    "character_hiragana": "ひつじ",
+    "character_hiragana_kun": "ひつじ",
+    "character_hiragana_on": "び",
     "animal_name": {
       "ja": "羊",
       "ja_hiragana": "ひつじ",
@@ -91,7 +99,8 @@
     "number": 9,
     "emoji": "🐵",
     "character": "申",
-    "character_hiragana": "さる",
+    "character_hiragana_kun": "さる",
+    "character_hiragana_on": "しん",
     "animal_name": {
       "ja": "猿",
       "ja_hiragana": "さる",
@@ -102,7 +111,8 @@
     "number": 10,
     "emoji": "🐔",
     "character": "酉",
-    "character_hiragana": "とり",
+    "character_hiragana_kun": "とり",
+    "character_hiragana_on": "ゆう",
     "animal_name": {
       "ja": "鶏",
       "ja_hiragana": "にわとり",
@@ -113,7 +123,8 @@
     "number": 11,
     "emoji": "🐶",
     "character": "戌",
-    "character_hiragana": "いぬ",
+    "character_hiragana_kun": "いぬ",
+    "character_hiragana_on": "じゅつ",
     "animal_name": {
       "ja": "犬",
       "ja_hiragana": "いぬ",
@@ -124,7 +135,8 @@
     "number": 12,
     "emoji": "🐗",
     "character": "亥",
-    "character_hiragana": "い",
+    "character_hiragana_kun": "い",
+    "character_hiragana_on": "がい",
     "animal_name": {
       "ja": "猪",
       "ja_hiragana": "いのしし",

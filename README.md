@@ -15,7 +15,8 @@ Etoji.geto(year: 2023)
 #  number=4,
 #  emoji="🐰",
 #  character="卯",
-#  character_hiragana="う",
+#  character_hiragana_kun="う",
+#  character_hiragana_on="ぼう",
 #  animal_name_ja="兎",
 #  animal_name_ja_hiragana="うさぎ",
 #  animal_name_en="rabbit">

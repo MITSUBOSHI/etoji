@@ -6,13 +6,14 @@ module Etoji
     class NotFound < StandardError; end
 
     SOURCE_FILE_PATH = File.expand_path('../../../db/jyunishi.json', __FILE__)
-    Animal = ::Data.define(:number, :emoji, :character, :character_hiragana, :animal_name_ja, :animal_name_ja_hiragana, :animal_name_en)
+    Animal = ::Data.define(:number, :emoji, :character, :character_hiragana_kun, :character_hiragana_on, :animal_name_ja, :animal_name_ja_hiragana, :animal_name_en)
     MEMBERS = JSON.parse(File.read(SOURCE_FILE_PATH), symbolize_names: true).map { |attributes|
       Animal.new(
         number: attributes[:number],
         emoji: attributes[:emoji],
         character: attributes[:character],
-        character_hiragana: attributes[:character_hiragana],
+        character_hiragana_kun: attributes[:character_hiragana_kun],
+        character_hiragana_on: attributes[:character_hiragana_on],
         animal_name_ja: attributes.dig(:animal_name, :ja),
         animal_name_ja_hiragana: attributes.dig(:animal_name, :ja_hiragana),
         animal_name_en: attributes.dig(:animal_name, :en)

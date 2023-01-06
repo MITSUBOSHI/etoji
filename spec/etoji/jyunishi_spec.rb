@@ -14,7 +14,8 @@ RSpec.describe Etoji::Jyunishi do
             number: 12,
             emoji: "🐗",
             character: "亥",
-            character_hiragana: "い",
+            character_hiragana_kun: "い",
+            character_hiragana_on: "がい",
             animal_name_ja: "猪",
             animal_name_ja_hiragana: "いのしし",
             animal_name_en: "boar"
