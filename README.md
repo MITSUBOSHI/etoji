@@ -1,6 +1,6 @@
 # Etoji
 
-[![test](https://github.com/MITSUBOSHI/etoji/actions/workflows/test.yml/badge.svg)](https://github.com/MITSUBOSHI/etoji/actions/workflows/test.yml)
+[![test](https://github.com/MITSUBOSHI/etoji/actions/workflows/test.yml/badge.svg)](https://github.com/MITSUBOSHI/etoji/actions/workflows/test.yml)[![typecheck](https://github.com/MITSUBOSHI/etoji/actions/workflows/typecheck.yml/badge.svg)](https://github.com/MITSUBOSHI/etoji/actions/workflows/typecheck.yml)
 
 
 Simple 干支(eto) library
