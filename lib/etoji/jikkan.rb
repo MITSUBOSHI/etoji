@@ -4,9 +4,9 @@ require 'json'
 module Etoji
   module Jikkan
     class NotFound < StandardError; end
+    class Kan < ::Data.define(:number, :character, :character_hiragana_on, :character_hiragana_kun); end
 
     SOURCE_FILE_PATH = File.expand_path('../../../db/jikkan.json', __FILE__)
-    Kan = ::Data.define(:number, :character, :character_hiragana_on, :character_hiragana_kun)
     MEMBERS = JSON.parse(File.read(SOURCE_FILE_PATH), symbolize_names: true).map { |attributes|
       Kan.new(
         number: attributes[:number],

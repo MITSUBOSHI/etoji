@@ -1,0 +1,26 @@
+module Etoji
+  module Jyunishi
+    SOURCE_FILE_PATH: String
+    MEMBERS: Array[Animal]
+    self.@animals_by_number: Hash[Integer, Animal]
+
+    def self.all: -> Array[Animal]
+    def self.find_by_number: (Integer) -> Animal
+
+    class Animal
+      attr_reader number: Integer
+      attr_reader emoji: String
+      attr_reader character: String
+      attr_reader character_hiragana_on: String
+      attr_reader character_hiragana_kun: String
+      attr_reader animal_name_ja: String
+      attr_reader animal_name_ja_hiragana: String
+      attr_reader animal_name_en: String
+
+      def initialize: (number: Integer, emoji: String, character: String, character_hiragana_on: String, character_hiragana_kun: String, animal_name_ja: String, animal_name_ja_hiragana: String, animal_name_en: String) -> void
+    end
+
+    class NotFound < StandardError
+    end
+  end
+end

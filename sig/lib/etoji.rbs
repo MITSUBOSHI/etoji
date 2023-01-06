@@ -1,0 +1,11 @@
+module Etoji
+  class Error < StandardError
+  end
+
+  def self.geto: (year: Integer|String, ?with_prev: false, ?with_next: false) -> Jyunishi::Animal
+    | (year: Integer|String, with_prev: true, ?with_next: bool) -> Array[Jyunishi::Animal]
+    | (year: Integer|String, ?with_prev: bool, with_next: true) -> Array[Jyunishi::Animal]
+  def self.geto_full_string: (year: Integer|String) -> String
+
+  def self.convert_year: (Integer|String) -> Integer
+end

@@ -1,0 +1,22 @@
+module Etoji
+  module Jikkan
+    SOURCE_FILE_PATH: String
+    MEMBERS: Array[Kan]
+    self.@kans_by_number: Hash[Integer, Kan]
+
+    def self.all: -> Array[Kan]
+    def self.find_by_number: (Integer) -> Kan
+
+    class Kan
+      attr_reader number: Integer
+      attr_reader character: String
+      attr_reader character_hiragana_on: String
+      attr_reader character_hiragana_kun: String
+
+      def initialize: (number: Integer, character: String, character_hiragana_on: String, character_hiragana_kun: String) -> void
+    end
+
+    class NotFound < StandardError
+    end
+  end
+end

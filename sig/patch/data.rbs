@@ -1,0 +1,3 @@
+class Data
+  def self.define: (*untyped) -> untyped
+end
