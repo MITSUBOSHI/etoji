@@ -5,5 +5,6 @@ target :lib do
 
   library(
     "json"
+    "tsort"
   )
 end
