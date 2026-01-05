@@ -4,7 +4,7 @@ target :lib do
   check "lib"
 
   library(
-    "json"
+    "json",
     "tsort"
   )
 end
