@@ -25,7 +25,7 @@ module Etoji
     end
 
     def self.find_by_number(number)
-      @animals_by_number ||= MEMBERS.each_with_object({}) { |animal, result| result[animal.number] = animal }
+      @animals_by_number ||= MEMBERS.each_with_object({} #: Hash[Integer, Animal]) { |animal, result| result[animal.number] = animal }
       @animals_by_number[number] or raise NotFound.new("Number: #{number} is not found")
     end
   end
