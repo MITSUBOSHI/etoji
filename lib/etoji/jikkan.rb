@@ -21,7 +21,9 @@ module Etoji
     end
 
     def self.find_by_number(number)
-      @kans_by_number ||= MEMBERS.each_with_object({} #: Hash[Integer, Kan]) { |kan, result| result[kan.number] = kan }
+      @kans_by_number ||= MEMBERS.each_with_object(
+        {} #: Hash[Integer, Kan]
+      ) { |kan, result| result[kan.number] = kan }
       @kans_by_number[number] or raise NotFound.new("Number: #{number} is not found")
     end
   end
